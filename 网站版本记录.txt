@@ -4,6 +4,7 @@
 将网站迁移至https://creatorcsie.github.io，并移除Minecraft Dungeons的所有页面，移除所有自定义错误页面
 把主页音乐更改成 林海 - 远方的寂静
 移除AD，但仍然保留栏目
+把classic.minecraft.net做进网站里
 
 == 1.0-beta1-9 ==（制作时间：2021-5-25）
 更改Music.html

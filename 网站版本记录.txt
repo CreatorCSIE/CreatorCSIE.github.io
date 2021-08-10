@@ -1,6 +1,11 @@
 网站版本记录（这些版本全部由Dreamweaver编辑）
 
+== 1.0 beta2-1 ==（制作时间：2020-8-10）
+更改TutorialFirefox TutorialChrome的超链接
+取消Shamble和Drop的直链下载
+
 == 1.0 beta2 ==（制作时间：2021-8-9）
+重大更新：
 将网站迁移至https://creatorcsie.github.io，并移除Minecraft Dungeons的所有页面，移除所有自定义错误页面
 把主页音乐更改成 林海 - 远方的寂静
 移除AD，但仍然保留栏目

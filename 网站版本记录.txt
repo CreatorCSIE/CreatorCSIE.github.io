@@ -1,6 +1,9 @@
 网站版本记录（这些版本全部由Dreamweaver编辑）
 
-== 1.0 beta2-1 ==（制作时间：2020-8-10）
+== 1.0 beta2-2 ==（这种时间：2021-8-13）
+修复图标让其正常显示
+
+== 1.0 beta2-1 ==（制作时间：2021-8-10）
 更改TutorialFirefox TutorialChrome的超链接
 取消Shamble和Drop的直链下载
 

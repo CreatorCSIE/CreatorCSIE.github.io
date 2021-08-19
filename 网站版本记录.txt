@@ -1,6 +1,9 @@
 网站版本记录（这些版本全部由Dreamweaver编辑）
 
-== 1.0 beta2-2 ==（这种时间：2021-8-13）
+== 1.0 beta2-3 ==（制作时间：2021-8-19）
+将迁移到creatorcsie.github.io/MinecraftDungeons/ 的MinecraftDungeons子网站出现添加超链接
+
+== 1.0 beta2-2 ==（制作时间：2021-8-13）
 修复图标让其正常显示
 
 == 1.0 beta2-1 ==（制作时间：2021-8-10）

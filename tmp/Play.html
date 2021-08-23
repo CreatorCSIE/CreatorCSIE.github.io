@@ -286,11 +286,11 @@
 		var longerI;
 		var longerJ;
 		IP = request['server'];
+	        var applet=document.getElementById("realapplet").getElementsByTagName("param");
 		if(IP==null)
 			document.getElementById("ip").value="null";
 		else
 		{
-			var applet=document.getElementById("realapplet").getElementsByTagName("param");
 			for(var i=0;i<applet.length;i++)
 				if(applet[i]==document.getElementById("ip"))
 				{
@@ -306,15 +306,14 @@
 			document.getElementById("port").value="null";
 		else
 		{
-			var applet1=document.getElementById("realapplet").getElementsByTagName("param");
-			for(var j=0;j<applet1.length;j++)
-				if(applet1[j]==document.getElementById("Port"))
+			for(var j=0;j<applet.length;j++)
+				if(applet[j]==document.getElementById("Port"))
 				{
-					applet1[j].setAttribute("value",Port);
+					applet[j].setAttribute("value",Port);
 					longerJ=j;
 					break;
 				}
-			document.getElementById("11").innerHTML=applet1[longerJ].getAttribute("value");
+			document.getElementById("11").innerHTML=applet[longerJ].getAttribute("value");
 		}
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

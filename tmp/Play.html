@@ -242,10 +242,10 @@
     									<param name="al_bgcolor" value="000000">
     									<param name="al_fgcolor" value="ffffff">
     									<param name="al_errorcolor" value="ff0000">
-    									<param name="al_prepend_host" value="true">
+    									<!--param name="al_prepend_host" value="true">
 										<param name="server" value="" id="ip">
 										<param name="port" value="" id="port">
-									</applet>
+									</applet-->
 									<hr>
 									<font face="微软雅黑" color="red">(Warning, the website without level saving service. The level saving was outdated!!!)<br>
 									This game requires <a href="https://www.java.com/zh-cn/download">32-bit Java8</a>. Setting your Browser (Java plug-in selection) to run Applet!<br>
@@ -280,41 +280,43 @@
         }
         return theRequest;
     }
-	var request = new Object();
-	request = GetRequest();
-		var IP;
-		var longerI;
-		var longerJ;
-		IP = request['server'];
-	        var applet=document.getElementById("realapplet").getElementsByTagName("param");
-		if(IP==null)
-			document.getElementById("ip").value="null";
-		else
-		{
-			for(var i=0;i<applet.length;i++)
-				if(applet[i]==document.getElementById("ip"))
-				{
-					applet[i].setAttribute("value",IP);
-					longerI=i;
-					break;
+	function Process1(){
+		var request = new Object();
+		request = GetRequest();
+			var IP;
+			var longerI;
+			var longerJ;
+			IP = request['server'];
+	        	var applet=document.getElementById("realapplet").getElementsByTagName("param");
+			if(IP==null)
+				document.getElementById("ip").value="null";
+			else
+			{
+				for(var i=0;i<applet.length;i++)
+					if(applet[i]==document.getElementById("ip"))
+					{
+						applet[i].setAttribute("value",IP);
+						longerI=i;
+						break;
 				}
-			document.getElementById("12").innerHTML=applet[longerI].getAttribute("value");
-		}
-		var Port;
-		Port = request['port'];
-		if(Port==null)
-			document.getElementById("port").value="null";
-		else
-		{
-			for(var j=0;j<applet.length;j++)
-				if(applet[j]==document.getElementById("Port"))
-				{
-					applet[j].setAttribute("value",Port);
-					longerJ=j;
-					break;
+				document.getElementById("12").innerHTML=applet[longerI].getAttribute("value");
+			}
+			var Port;
+			Port = request['port'];
+			if(Port==null)
+				document.getElementById("port").value="null";
+			else
+			{
+				for(var j=0;j<applet.length;j++)
+					if(applet[j]==document.getElementById("Port"))
+					{
+						applet[j].setAttribute("value",Port);
+						longerJ=j;
+						break;
 				}
-			document.getElementById("11").innerHTML=applet[longerJ].getAttribute("value");
-		}
+				document.getElementById("11").innerHTML=applet[longerJ].getAttribute("value");
+			}
+	}
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>

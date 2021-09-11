@@ -1,5 +1,10 @@
 网站版本记录（这些版本全部由Dreamweaver编辑）
 
+== 1.0 beta2-8 ==（制作时间：2021-9-11）
+ServerList.html回归
+超链接仍未设置好
+creatorcsie.github.io/ServerList.html
+
 == 1.0 beta2-7 ==（制作时间：2021-9-8）
 9月更新
 今天我迁移minecraft账号了！

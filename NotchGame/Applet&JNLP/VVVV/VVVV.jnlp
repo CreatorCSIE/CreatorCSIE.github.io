@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.5+" codebase="http://103.107.189.25:47891/NotchGame/VVVV/" href="VVVV.jnlp">
+<jnlp spec="1.5+" codebase="https://creatorcsie.github.io/NotchGame/Applet&JNLP/VVVV/" href="VVVV.jnlp">
 <information>
     <title>VVVV</title>
     <vendor>Markus Persson</vendor>
-    <homepage href="http://103.107.189.25:47891/NotchGame/"/>
+    <homepage href="https://creatorcsie.github.io/NotchGame/Applet&JNLP/NotchGame/"/>
     <offline-allowed/> 
 </information>
 <resources>

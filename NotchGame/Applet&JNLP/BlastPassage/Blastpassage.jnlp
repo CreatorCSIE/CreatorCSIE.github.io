@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.6+" codebase="http://103.107.189.25:47891/NotchGame/Blastpassage/" href="Blastpassage.jnlp">
+<jnlp spec="1.6+" codebase="https://creatorcsie.github.io/NotchGame/Applet&JNLP/Blastpassage/" href="Blastpassage.jnlp">
 <information>
     <title>BlastPassage</title>
     <vendor>Markus Persson</vendor>

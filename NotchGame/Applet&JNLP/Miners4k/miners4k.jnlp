@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0" codebase="http://103.107.189.25:47891/NotchGame/Miners4k/" href="miners4k.jnlp">
+<jnlp spec="1.0" codebase="https://creatorcsie.github.io/NotchGame/Applet&JNLP/Miners4k/" href="miners4k.jnlp">
 	<information>
 		<title>Miners4k</title>
 		<vendor>Markus Persson</vendor>
-		<homepage href="http://103.107.189.25:47891/NotchGame/Miners4k/"/>
+		<homepage href="https://creatorcsie.github.io/NotchGame/Applet&JNLP/Miners4k/"/>
 		<description>Kinda like lemmings in under 4kb!</description>
 	</information>
 

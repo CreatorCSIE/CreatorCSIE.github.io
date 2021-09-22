@@ -1,5 +1,9 @@
 网站版本记录（这些版本全部由Dreamweaver编辑）
 
+== 1.2 ==（制作时间：2021-9-22）
+加入Infdev Map Visualizer
+通过creatorcsie.github.io/minecraft/isom/ 访问
+
 == 1.1-1 ==（制作时间；2021-9-19）
 修复版本号仍为1.0的问题
 下一个版本加入minecraft的JNLP

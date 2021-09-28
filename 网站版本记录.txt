@@ -2,6 +2,8 @@
 
 == 1.21 ==（制作时间：2021-9-26）
 更改Infdev Map Visualizer的主页
+更改访问方式
+creatorcsie.github.io/isom/
 
 == 1.2 ==（制作时间：2021-9-22）
 加入Infdev Map Visualizer

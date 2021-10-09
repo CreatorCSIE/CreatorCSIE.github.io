@@ -1,5 +1,8 @@
 网站版本记录（这些版本全部由Dreamweaver编辑）
 
+== 1.25 ==（制作时间：2021-10-9）
+更改Infdev Map Visualizer的主页
+
 == 1.24 ==（制作时间：2021-10-8）
 更改about.html
 

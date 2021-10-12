@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.6+" codebase="https://creatorcsie.github.io/minecraft/0.0.15a/" herf="Start.jnlp">
+<information>
+    <title>Minecraft Classic JNLP Edition.</title>
+    <vendor>Markus Persson</vendor>
+    <homepage herf="http://creatorcsie.github.io/minecraft/"/>
+    <offline-allowed/>
+    <icon href="favicon.jpg"/>
+</information>
+ <security>
+    <all-permissions/>
+</security>
+<resources>
+    <j2se version="1.6+"/>
+    <jar href="lwjgl_util_applet.jar"/>
+    <jar href="lzma.jar"/>
+</resources>
+<applet-desc name="Minecraft Classic" main-class="org.lwjgl.util.applet.AppletLoader" width="854" height="480">
+    <param name="al_title" value="Minecraft_Classic_JNLP_0.0.15a"/>
+    <param name="al_main" value="com.mojang.minecraft.MinecraftApplet"/>
+    <param name="al_logo" value="logo_small.png"/>
+    <param name="al_progressbar" value="loader.gif"/>
+    <param name="al_cache" value="false"/>
+    <param name="al_jars" value="lwjgl.jar.pack.lzma, jinput.jar.pack.lzma, lwjgl_util.jar.pack.lzma, minecraft.jar"/>
+    <param name="al_windows" value="windows_natives.jar.lzma"/>
+    <param name="al_linux" value="linux_natives.jar.lzma"/>
+    <param name="al_mac" value="macosx_natives.jar.lzma"/>
+    <param name="al_solaris" value="solaris_natives.jar.lzma"/>
+    <param name="al_debug" value="false"/>
+    <param name="al_version" value="0.13"/>
+    <param name="codebase_lookup" value="true"/>
+    <param name="separate_jvm" value="true"/>
+    <!--param name="lwjgl_arguments" value="-Dorg.lwjgl.input.Mouse.allowNegativeMouseCoords=true -Dorg.lwjgl.util.Debug=true -Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true"/-->
+    <param name="java_arguments" value="-Xmx2048M -Xms1024M"/>
+    <param name="boxmessage" value="Minecraft started"/>
+    <param name="boxbgcolor" value="#000000"/>
+    <param name="al_bgcolor" value="000000"/>
+    <param name="al_fgcolor" value="ffffff"/>
+    <param name="al_errorcolor" value="ff0000"/>
+    <param name="al_prepend_host" value="true"/>
+</applet-desc>
+</jnlp>
